@@ -12,28 +12,28 @@ public class elzhas{
     }
 
     public static int sum(int a, int b){
-    	int count = 0;
+    	int axx = 0;
 
     	for(int i = a; i <= b; i++)
-    		count += i;
+    		axx += i;
 
-    	return count;
+    	return axx;
     }
 
-    public static int max(int x, int y){
+    public static int max(int a, int b){
     	System.out.println("Max called as Integer");
-    	if(x > y)
-    		return x;
+    	if(a > b)
+    		return a;
     	else
-    		return y;
+    		return b;
     }
 
-    public static double max(double x, double y){
+    public static double max(double a, double b){
     	System.out.println("Max called as Double");
-    	if(x > y)
-    		return x;
+    	if(a > b)
+    		return a;
     	else
-    		return y;
+    		return b;
     }
 
     public static void print(){
